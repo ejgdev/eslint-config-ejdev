@@ -1,0 +1,38 @@
+{
+  "name": "@ejg.dev/eslint-config-ejgdev",
+  "version": "1.0.2",
+  "main": "node.js",
+  "description": "ESLint shareable config",
+  "files": [
+    "node.js",
+    "native.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejgdev/eslint-config-ejdev.git"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "style",
+    "lint",
+    "airbnb",
+    "es6",
+    "es2018",
+    "react",
+    "jsx"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0"
+  }
+}

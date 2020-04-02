@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+
+# Yay for ide's
+.idea
+
+.npmrc
+
+.DS_Store
