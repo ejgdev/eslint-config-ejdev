@@ -22,7 +22,7 @@
     "jsx"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "peerDependencies": {
     "babel-eslint": "10.1.0",
