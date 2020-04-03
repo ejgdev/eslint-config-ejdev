@@ -9,7 +9,7 @@ module.exports = {
   },
   "extends": ["airbnb-base"],
   "parser-options": {
-    "ecmaVersion": "2018",
+    "ecmaVersion": 2018
   },
   "rules": {
     "curly": "error",
