@@ -1,21 +1,21 @@
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    jest: true,
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "es2017": true,
+    "jest": true,
+    "node": true
   },
-  extends: [
-       'airbnb-base',
-   ],
- globals: {
-      Atomics: 'readonly',
-      SharedArrayBuffer: 'readonly'
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "plugins": ["react", "import"],
+  "rules": {
+    "react/jsx-filename-extension": ["off"],
+    "linebreak-style": ["off"],
+    "no-undef": ["error"],
+    "react/sort-comp": ["off"],
+    "react/prefer-stateless-function": ["off"],
+    "jsx-a11y/anchor-is-valid": ["off"]
   },
-  parserOptions: {
-    ecmaVersion: 2018,
-  },
-  rules: {
-    semi: ['error', 'always'] // https://eslint.org/docs/rules/semi
-  }
 };
