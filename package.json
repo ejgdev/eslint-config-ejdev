@@ -1,6 +1,6 @@
 {
   "name": "@ejg.dev/eslint-config-ejgdev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "node.js",
   "description": "ESLint shareable config",
   "files": [
