@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
-    curly: 'error',
+    curly: [2, 'all'],
     'brace-style': ['error', '1tbs', {
       allowSingleLine: false,
     }],
